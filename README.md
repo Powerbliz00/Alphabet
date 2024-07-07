@@ -11,12 +11,15 @@ using System;
 
 public class Program
 {
+   // C# Main method - The program start here
     static void Main(string[] args)
     {
         string alphabet = "abcdefghijklmnopqrstuvwxyz";
-        //your code goes here
+        // Iteration in each letter in the alphabet string
         foreach (char letter in alphabet){
+            // definition of new variable 'letterCapitalCase' for converting char type into string output
             string letterCapitalCase = letter.ToString().ToUpper(); 
+            // Output method
             Console.WriteLine(letterCapitalCase);
         }
     }
